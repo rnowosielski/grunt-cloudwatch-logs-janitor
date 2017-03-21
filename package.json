@@ -1,0 +1,35 @@
+{
+  "name": "grunt-cloudwatch-logs-janitor",
+  "version": "1.0.0",
+  "description": "Grunt task that keeps AWS CloudWatch log streams and groups in check",
+  "main": "tasks/cloudwatch_logs_clean.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rnowosielski/grunt-cloudwatch-logs-janitor.git"
+  },
+  "keywords": [
+    "cloudwatch",
+    "aws",
+    "logs",
+    "clean",
+    "janitor",
+    "deployment"
+  ],
+  "author": "Rafał Nowosielski",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/rnowosielski/grunt-cloudwatch-logs-janitor/issues"
+  },
+  "files": [
+    "tasks"
+  ],
+  "homepage": "https://github.com/rnowosielski/grunt-aws-lambda-janitor#readme",
+  "dependencies": {
+    "aws-sdk": "^2.23.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0"
+  }
+}
