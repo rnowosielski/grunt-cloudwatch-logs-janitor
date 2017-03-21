@@ -13,7 +13,7 @@ and add it to your `Gruntfile.js` the taks configuration
 
     grunt.initConfig({
         cloudwatch_logs_clean: {
-            test: {
+            default: {
                 options: {
                     region: "eu-west-1"
                 }
